@@ -1,5 +1,9 @@
 import { useState } from "react";
-import Map, { Marker } from "react-map-gl";
+import Map, {
+  Marker,
+  NavigationControl,
+  FullscreenControl,
+} from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import ratingToColor from "../utils/ratingColor";
 
@@ -12,8 +16,18 @@ const MapPage = ({ locations }) => {
     zoom: 12,
   });
 
+  const navControlStyle = {
+    right: 10,
+    top: 10,
+  };
+
+  const fullscreenControlStyle = {
+    right: 10,
+    top: 50,
+  };
+
   return (
-    <div className="mx-auto map-container">
+    <div className="map-container mx-auto">
       <Map
         {...viewport}
         onMove={(evt) => setViewport(evt.viewport)}
@@ -29,6 +43,9 @@ const MapPage = ({ locations }) => {
             color={ratingToColor(pin.rating)}
           />
         ))}
+
+        <NavigationControl style={navControlStyle} />
+        <FullscreenControl style={fullscreenControlStyle} />
       </Map>
     </div>
   );
