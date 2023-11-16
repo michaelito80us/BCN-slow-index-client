@@ -1,9 +1,9 @@
-import logo1 from "../assets/logo-1.png"
+import logo1 from "../assets/logo-text.png"
 
 const Nav = () => {
   return (
-    <div className="navbar bg-base-100 bg-accent">
-        <img src={logo1} alt="logo" />
+    <div className="navbar bg-accent">
+        <img className="h-10 rounded-l m-2" src={logo1} alt="logo" />
     </div>
   )
 }
