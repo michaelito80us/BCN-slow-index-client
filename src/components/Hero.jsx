@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div
-      className="min-h-[50vh] hero bg-cover bg-bottom bg-no-repeat"
+      className="min-h-[50vh] hero bg-bottom bg-no-repeat"
       style={{
         backgroundImage:
           "url(https://images.unsplash.com/photo-1464730282481-19bd52679224?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
