@@ -1,5 +1,9 @@
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+import Home from "./pages/Home";
+import MainPage from "./pages/MainPage";
+import PlaceDetails from "./pages/PlaceDetails";
 
 function App() {
   
@@ -7,10 +11,11 @@ function App() {
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav />
-      <div className="items-center w-100">
-        <h1>Barcelona Slow Index</h1>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint eaque vel eligendi ea molestias incidunt dolores, voluptas tenetur quam quod quae aspernatur? Ipsa animi suscipit dolore praesentium maxime quos!</h2>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/main" element={<MainPage />}/>
+        <Route path="/details/:placeId" element={<PlaceDetails />}/>
+      </Routes>
       <Footer />
     </div>
   );
