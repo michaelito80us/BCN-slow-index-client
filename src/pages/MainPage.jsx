@@ -49,8 +49,8 @@ const ZONES = [
 ];
 
 const CATEGORIES = [
-  { value: "tienda", label: "Tienda" },
-  { value: "atraccion", label: "Atraccion" },
+  { value: "TIENDAS", label: "Tienda" },
+  { value: "ATTRACCIONES", label: "Atraccion" },
 ];
 
 const Main = () => {
