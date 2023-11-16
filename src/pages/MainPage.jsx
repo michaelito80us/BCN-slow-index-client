@@ -7,13 +7,47 @@ import Card from "../components/Card";
 import Filter from "../components/Filter";
 
 const ZONES = [
-  { value: "zone1", label: "Zone 1" },
-  { value: "zone2", label: "Zone 2" },
-  { value: "zone3", label: "Zone 3" },
-  { value: "zone4", label: "Zone 4" },
-  { value: "zone5", label: "Zone 5" },
-  { value: "zone6", label: "Zone 6" },
+  { value: "EL_RAVAL", label: "El Raval" },
+  { value: "LA_DRETA_DE_LEIXAMPLE", label: "La Dreta De Leixample" },
+  {
+    value: "LANTIGA_ESQUERRA_DE_LEIXAMPLE",
+    label: "L'Antiga Esquerra De L'Eixample",
+  },
+  { value: "SANT_ANTONI", label: "Sant Antoni" },
+  {
+    value: "LA_NOVA_ESQUERRA_DE_LEIXAMPLE",
+    label: "La Nova Esquerra De L'Eixample",
+  },
+  { value: "EL_POBLENOU", label: "El Poblenou" },
+  { value: "EL_CAMP_DE_LARPA_DEL_CLOT", label: "El Camp De L'Arpa Del Clot" },
+  { value: "EL_FORT_PIENC", label: "El Fort Pienc" },
+  {
+    value: "EL_PARC_I_LA_LLACUNA_DEL_POBLENOU",
+    label: "El Parc I La Llacuna Del Poblenou",
+  },
+  { value: "VALLCARCA_I_ELS_PENITENTS", label: "Vallcarca I Els Penitents" },
+  { value: "LES_CORTS", label: "Les Corts" },
+  { value: "EL_CLOT", label: "El Clot" },
+  { value: "PEDRALBES", label: "Pedralbes" },
+  {
+    value: "VILAPICINA_I_LA_TORRE_LLOBETA",
+    label: "Vilapicina I La Torre Llobeta",
+  },
+  { value: "LA_SAGRERA", label: "La Sagrera" },
+  { value: "SANT_ANDREU", label: "Sant Andreu" },
+  { value: "PORTA", label: "Porta" },
+  { value: "LA_MATERNITAT_I_SANT_RAMON", label: "La Maternitat I Sant Ramon" },
+  { value: "LA_BARCELONETA", label: "La Barceloneta" },
+  { value: "LA_SALUT", label: "La Salut" },
+  { value: "EL_COLL", label: "El Coll" },
+  { value: "VERDUN", label: "Verdun" },
+  { value: "LA_GUINEUETA", label: "La Guineueta" },
+  { value: "LA_VERNEDA_I_LA_PAU", label: "La Verneda I La Pau" },
+  { value: "LA_TRINITAT_VELLA", label: "La Trinitat Vella" },
+  { value: "EL_BON_PASTOR", label: "El Bon Pastor" },
+  { value: "OTRO", label: "Otro" },
 ];
+
 const CATEGORIES = [
   { value: "tienda", label: "Tienda" },
   { value: "atraccion", label: "Atraccion" },
@@ -49,11 +83,11 @@ const Main = () => {
     // const postData = async () => {
     //   try {
     //     const response = await axios.post(
-    //       "https://example.com/api/filter",
+    //       "http://localhost:8081/interestpoints/filters/",
     //       currentFilter,
     //     );
-    //     console.log("Response data: ", response.data.results);
-    //     setResponseData(response.data.results);
+    //     console.log("Response data: ", response.data);
+    //     setResponseData(response.data);
     //   } catch (error) {
     //     console.error("Error in Axios POST request: ", error);
     //     setError(error.message);
@@ -68,7 +102,7 @@ const Main = () => {
   }
 
   return (
-    <div className="mx-4 main-container">
+    <div className="mx-4 pb-10">
       <Filter
         zones={ZONES}
         categories={CATEGORIES}
@@ -84,6 +118,7 @@ const Main = () => {
               category={place.category}
               name={place.name}
               rating={place.rating}
+              address={place.address}
             />
           ))}
       </div>

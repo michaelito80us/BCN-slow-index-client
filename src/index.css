@@ -2,46 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Default size */
+/* Default size - 4:3 Aspect Ratio */
 .map-container {
   width: 800px;
-  height: 600px;
+  height: 600px; /* 800/4*3 */
 }
 
-/* For medium screens (e.g., tablets in landscape mode) */
+/* Medium screens - tablets in landscape mode */
 @media (max-width: 1024px) {
   .map-container {
     width: 600px;
-    height: 500px;
+    height: 450px; /* 600/4*3 */
   }
 }
 
-/* For smaller screens (e.g., tablets in portrait mode) */
+/* Smaller screens - tablets in portrait mode */
 @media (max-width: 768px) {
   .map-container {
     width: 100%;
-    height: 400px;
+    height: 75vw; /* 100%/4*3 */
   }
 }
 
-/* For very small screens (e.g., large smartphones) */
+/* Very small screens - large smartphones */
 @media (max-width: 600px) {
   .map-container {
-    height: 350px;
+    height: 75vw; /* Keep aspect ratio */
   }
 }
 
-/* For extra small screens (e.g., small smartphones) */
+/* Extra small screens - small smartphones */
 @media (max-width: 480px) {
   .map-container {
-    height: 300px;
+    height: 360px; /* Width is likely around 480px, 480/4*3 */
   }
 }
 
-/* Optionally, for very large screens */
+/* Very large screens */
 @media (min-width: 1440px) {
   .map-container {
     width: 1000px;
-    height: 600px;
+    height: 750px; /* 1000/4*3 */
   }
 }
