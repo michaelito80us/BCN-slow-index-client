@@ -37,6 +37,11 @@ const Home = () => {
             the other hand, indicates destinations more aligned with fast-paced,
             conventional tourism.
           </p>
+          <div className="my-10 flex justify-evenly gap-10">
+            <Badge rating="2" />
+            <Badge rating="7" />
+            <Badge rating="10" />
+          </div>
           <p className="text-lg">
             Join us in embracing a travel philosophy that respects our world and
             enriches our experiences. Explore our curated list of Barcelona's
@@ -44,14 +49,9 @@ const Home = () => {
             of pause and connection.
           </p>
         </div>
-        <div className="flex justify-evenly gap-10">
-          <Badge rating="2" />
-          <Badge rating="7" />
-          <Badge rating="10" />
-        </div>
 
         <Card
-          category="cate"
+          category="Turismo"
           name="Sagrada Familia"
           rating="0"
           address="C/ de Mallorca, 401"

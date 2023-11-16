@@ -66,6 +66,7 @@ const Main = () => {
   const [isLoadingInitial, setIsLoadingInitial] = useState(true);
 
   useEffect(() => {
+    // comment this code to use the real API
     const getData = async () => {
       try {
         setIsLoadingInitial(true);
@@ -86,8 +87,8 @@ const Main = () => {
     //       "http://localhost:8081/interestpoints/filters/",
     //       currentFilter,
     //     );
-    //     console.log("Response data: ", response.data);
-    //     setResponseData(response.data);
+    //     console.log("Response data: ", response.data.results);
+    //     setResponseData(response.data.results);
     //   } catch (error) {
     //     console.error("Error in Axios POST request: ", error);
     //     setError(error.message);

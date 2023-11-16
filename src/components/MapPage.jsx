@@ -19,7 +19,6 @@ const MapPage = ({ locations }) => {
     zoom: 12,
   });
 
-  const [showPopup, setShowPopup] = useState(true);
   const [selectedLocation, setSelectedLocation] = useState(null);
 
   const navControlStyle = {
@@ -33,7 +32,7 @@ const MapPage = ({ locations }) => {
   };
 
   return (
-    <div className="map-container mx-auto">
+    <div className="mx-auto map-container">
       <Map
         {...viewport}
         onMove={(evt) => setViewport(evt.viewport)}
@@ -60,7 +59,7 @@ const MapPage = ({ locations }) => {
             latitude={selectedLocation.latitude}
             anchor="bottom"
             onClose={() => setSelectedLocation(null)}
-            className="z-50 h-10 w-10 bg-red-400"
+            style={{ backgroundColor: "red" }}
           >
             {" "}
             hello
