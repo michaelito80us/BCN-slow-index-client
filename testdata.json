@@ -1,6 +1,6 @@
 {
   "zones": ["zone1", "zone2", "zone3", "zone4"],
-  "categorys": ["category1", "category2", "category3", "category4"],
+  "categorys": ["tienda", "atraccion"],
   "results": [
     {
       "id": 1,
@@ -8,7 +8,7 @@
       "latitude": 41.39,
       "longitude": 2.1700999999999997,
       "rating": 9,
-      "category": "category2",
+      "category": "tienda",
       "zone": "zone2"
     },
     {
@@ -17,7 +17,7 @@
       "latitude": 41.400000000000006,
       "longitude": 2.1721,
       "rating": 8,
-      "category": "category3",
+      "category": "atraccion",
       "zone": "zone3"
     },
     {
