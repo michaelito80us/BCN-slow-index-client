@@ -1,4 +1,5 @@
 
+
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
@@ -9,6 +10,8 @@ import PlaceDetails from "./pages/PlaceDetails";
 function App() {
   
 
+
+const App = () => {
   return (
     <div className="flex flex-col h-screen justify-between">
       <Nav />
@@ -20,6 +23,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
