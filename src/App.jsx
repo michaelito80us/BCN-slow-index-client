@@ -5,20 +5,18 @@ import Home from "./pages/Home";
 import MainPage from "./pages/MainPage";
 import PlaceDetails from "./pages/PlaceDetails";
 
-function App() {
-
-
+const App = () => {
   return (
-    <div className="flex flex-col justify-between h-screen">
+    <div className="flex h-screen flex-col justify-between">
       <Nav />
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/main" element={<MainPage />}/>
-        <Route path="/details/:placeId" element={<PlaceDetails />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/main" element={<MainPage />} />
+        <Route path="/details/:placeId" element={<PlaceDetails />} />
       </Routes>
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
