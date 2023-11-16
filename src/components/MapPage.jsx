@@ -36,9 +36,7 @@ const MapPage = () => {
           latitude={pin.latitude}
           longitude={pin.longitude}
           color={ratingToColor(pin.rating)}
-        >
-          {/* <div style={{ color: "red" }}>📍</div> */}
-        </Marker>
+        />
       ))}
     </Map>
   );
