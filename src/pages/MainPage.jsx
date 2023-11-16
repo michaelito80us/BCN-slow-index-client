@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import DotLoader from "react-spinners/DotLoader";
-import PlaceDetails from "./PlaceDetails";
 import MapPage from "../components/MapPage";
 import Card from "../components/Card";
 import Filter from "../components/Filter";
@@ -66,36 +65,22 @@ const Main = () => {
   const [isLoadingInitial, setIsLoadingInitial] = useState(true);
 
   useEffect(() => {
-    // comment this code to use the real API
-    const getData = async () => {
+    const postData = async () => {
       try {
         setIsLoadingInitial(true);
-        const response = await axios.get("../../testdata.json");
-        console.log("Response data: ", response.data.results);
-        setResponseData(response.data.results);
+        const response = await axios.post(
+          "http://localhost:8081/interestpoints/filters/",
+          currentFilter
+        );
+        setResponseData(response.data);
         setIsLoadingInitial(false);
       } catch (error) {
         console.error("Error in Axios POST request: ", error);
         setError(error.message);
       }
     };
-    getData();
 
-    // const postData = async () => {
-    //   try {
-    //     const response = await axios.post(
-    //       "http://localhost:8081/interestpoints/filters/",
-    //       currentFilter,
-    //     );
-    //     console.log("Response data: ", response.data.results);
-    //     setResponseData(response.data.results);
-    //   } catch (error) {
-    //     console.error("Error in Axios POST request: ", error);
-    //     setError(error.message);
-    //   }
-    // };
-
-    // postData();
+    postData();
   }, [setCurrentFilter]);
 
   if (isLoadingInitial) {
