@@ -1,7 +1,5 @@
-const PlaceDetails = (props) => {
-  return (
-    <div>{props.barri}</div>
-  )
-}
+const PlaceDetails = ({ place }) => {
+  return <div>{place.name}</div>;
+};
 
-export default PlaceDetails
+export default PlaceDetails;

@@ -1,11 +1,13 @@
-import { useEffect,useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import DotLoader from "react-spinners/DotLoader";
 import PlaceDetails from "./PlaceDetails";
+import MapPage from "../components/MapPage";
 
 const Main = () => {
   // Let's create a state so we manage the places:
   const [places, setPlaces] = useState(null);
+  const [cardsToShow, setCardsToShow] = useState(null);
   // Let's create a variable for the search word:
   // const [query, setQuery] = useState("");
   // Create another state to manage the loading:
@@ -19,9 +21,10 @@ const Main = () => {
   const getData = async () => {
     try {
       console.log("testing axios");
-      const response = await axios.get("src/intensidad.json");
-      console.log(response.data);
-      setPlaces(response.data);
+      const response = await axios.get("../../testdata.json");
+      console.log("reponse data: ", response.data);
+      setPlaces(response.data.results);
+      setCardsToShow(response.data.results);
       setIsLoadingInitial(false);
     } catch (error) {
       // console.log(error);
@@ -57,7 +60,7 @@ const Main = () => {
   // useEffect(() => {
   //   getQuery();
   // }, [query]);
-  
+
   // Let's create a clause so we have a spinner while the data is loading:
   if (isLoadingInitial) {
     return <DotLoader color="#36d7b7" size={60} />;
@@ -84,12 +87,12 @@ const Main = () => {
           </div>
         )}
       </section> */}
+      <MapPage locations={places} />
       {places.map((eachPlace, i) => (
-        <PlaceDetails key={i} barri={eachPlace.BARRI} />
+        <PlaceDetails key={i} place={eachPlace} />
       ))}
-      Test
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
