@@ -1,231 +1,231 @@
 {
-  "zonas": ["zona1", "zona2", "zona3", "zona4"],
-  "categorias": ["categoria1", "categoria2", "categoria3", "categoria4"],
+  "zones": ["zone1", "zone2", "zone3", "zone4"],
+  "categorys": ["category1", "category2", "category3", "category4"],
   "results": [
     {
       "id": 1,
-      "nombre": "nombre1",
-      "latitud": 41.39,
+      "name": "name1",
+      "latitude": 41.39,
       "longitude": 2.1700999999999997,
       "rating": 9,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     },
     {
       "id": 2,
-      "nombre": "nombre2",
-      "latitud": 41.400000000000006,
+      "name": "name2",
+      "latitude": 41.400000000000006,
       "longitude": 2.1721,
       "rating": 8,
-      "categoria": "categoria3",
-      "zona": "zona3"
+      "category": "category3",
+      "zone": "zone3"
     },
     {
       "id": 3,
-      "nombre": "nombre3",
-      "latitud": 41.410000000000004,
+      "name": "name3",
+      "latitude": 41.410000000000004,
       "longitude": 2.1740999999999997,
       "rating": 7,
-      "categoria": "categoria4",
-      "zona": "zona4"
+      "category": "category4",
+      "zone": "zone4"
     },
     {
       "id": 4,
-      "nombre": "nombre4",
-      "latitud": 41.42,
+      "name": "name4",
+      "latitude": 41.42,
       "longitude": 2.1761,
       "rating": 6,
-      "categoria": "categoria1",
-      "zona": "zona1"
+      "category": "category1",
+      "zone": "zone1"
     },
     {
       "id": 5,
-      "nombre": "nombre5",
-      "latitud": 41.43,
+      "name": "name5",
+      "latitude": 41.43,
       "longitude": 2.1780999999999997,
       "rating": 10,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     },
     {
       "id": 6,
-      "nombre": "nombre6",
-      "latitud": 41.440000000000005,
+      "name": "name6",
+      "latitude": 41.440000000000005,
       "longitude": 2.1801,
       "rating": 9,
-      "categoria": "categoria3",
-      "zona": "zona3"
+      "category": "category3",
+      "zone": "zone3"
     },
     {
       "id": 7,
-      "nombre": "nombre7",
-      "latitud": 41.45,
+      "name": "name7",
+      "latitude": 41.45,
       "longitude": 2.1820999999999997,
       "rating": 8,
-      "categoria": "categoria4",
-      "zona": "zona4"
+      "category": "category4",
+      "zone": "zone4"
     },
     {
       "id": 8,
-      "nombre": "nombre8",
-      "latitud": 41.46,
+      "name": "name8",
+      "latitude": 41.46,
       "longitude": 2.1841,
       "rating": 7,
-      "categoria": "categoria1",
-      "zona": "zona1"
+      "category": "category1",
+      "zone": "zone1"
     },
     {
       "id": 9,
-      "nombre": "nombre9",
-      "latitud": 41.470000000000006,
+      "name": "name9",
+      "latitude": 41.470000000000006,
       "longitude": 2.1860999999999997,
       "rating": 6,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     },
     {
       "id": 10,
-      "nombre": "nombre10",
-      "latitud": 41.480000000000004,
+      "name": "name10",
+      "latitude": 41.480000000000004,
       "longitude": 2.1881,
       "rating": 10,
-      "categoria": "categoria3",
-      "zona": "zona3"
+      "category": "category3",
+      "zone": "zone3"
     },
     {
       "id": 11,
-      "nombre": "nombre11",
-      "latitud": 41.49,
+      "name": "name11",
+      "latitude": 41.49,
       "longitude": 2.1900999999999997,
       "rating": 9,
-      "categoria": "categoria4",
-      "zona": "zona4"
+      "category": "category4",
+      "zone": "zone4"
     },
     {
       "id": 12,
-      "nombre": "nombre12",
-      "latitud": 41.5,
+      "name": "name12",
+      "latitude": 41.5,
       "longitude": 2.1921,
       "rating": 8,
-      "categoria": "categoria1",
-      "zona": "zona1"
+      "category": "category1",
+      "zone": "zone1"
     },
     {
       "id": 13,
-      "nombre": "nombre13",
-      "latitud": 41.510000000000005,
+      "name": "name13",
+      "latitude": 41.510000000000005,
       "longitude": 2.1940999999999997,
       "rating": 7,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     },
     {
       "id": 14,
-      "nombre": "nombre14",
-      "latitud": 41.52,
+      "name": "name14",
+      "latitude": 41.52,
       "longitude": 2.1961,
       "rating": 6,
-      "categoria": "categoria3",
-      "zona": "zona3"
+      "category": "category3",
+      "zone": "zone3"
     },
     {
       "id": 15,
-      "nombre": "nombre15",
-      "latitud": 41.53,
+      "name": "name15",
+      "latitude": 41.53,
       "longitude": 2.1980999999999997,
       "rating": 10,
-      "categoria": "categoria4",
-      "zona": "zona4"
+      "category": "category4",
+      "zone": "zone4"
     },
     {
       "id": 16,
-      "nombre": "nombre16",
-      "latitud": 41.54,
+      "name": "name16",
+      "latitude": 41.54,
       "longitude": 2.2001,
       "rating": 9,
-      "categoria": "categoria1",
-      "zona": "zona1"
+      "category": "category1",
+      "zone": "zone1"
     },
     {
       "id": 17,
-      "nombre": "nombre17",
-      "latitud": 41.550000000000004,
+      "name": "name17",
+      "latitude": 41.550000000000004,
       "longitude": 2.2020999999999997,
       "rating": 8,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     },
     {
       "id": 18,
-      "nombre": "nombre18",
-      "latitud": 41.56,
+      "name": "name18",
+      "latitude": 41.56,
       "longitude": 2.2041,
       "rating": 7,
-      "categoria": "categoria3",
-      "zona": "zona3"
+      "category": "category3",
+      "zone": "zone3"
     },
     {
       "id": 19,
-      "nombre": "nombre19",
-      "latitud": 41.57,
+      "name": "name19",
+      "latitude": 41.57,
       "longitude": 2.2060999999999997,
       "rating": 6,
-      "categoria": "categoria4",
-      "zona": "zona4"
+      "category": "category4",
+      "zone": "zone4"
     },
     {
       "id": 20,
-      "nombre": "nombre20",
-      "latitud": 41.580000000000005,
+      "name": "name20",
+      "latitude": 41.580000000000005,
       "longitude": 2.2081,
       "rating": 10,
-      "categoria": "categoria1",
-      "zona": "zona1"
+      "category": "category1",
+      "zone": "zone1"
     },
     {
       "id": 21,
-      "nombre": "nombre21",
-      "latitud": 41.59,
+      "name": "name21",
+      "latitude": 41.59,
       "longitude": 2.2100999999999997,
       "rating": 9,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     },
     {
       "id": 22,
-      "nombre": "nombre22",
-      "latitud": 41.6,
+      "name": "name22",
+      "latitude": 41.6,
       "longitude": 2.2121,
       "rating": 8,
-      "categoria": "categoria3",
-      "zona": "zona3"
+      "category": "category3",
+      "zone": "zone3"
     },
     {
       "id": 23,
-      "nombre": "nombre23",
-      "latitud": 41.61,
+      "name": "name23",
+      "latitude": 41.61,
       "longitude": 2.2140999999999997,
       "rating": 7,
-      "categoria": "categoria4",
-      "zona": "zona4"
+      "category": "category4",
+      "zone": "zone4"
     },
     {
       "id": 24,
-      "nombre": "nombre24",
-      "latitud": 41.620000000000005,
+      "name": "name24",
+      "latitude": 41.620000000000005,
       "longitude": 2.2161,
       "rating": 6,
-      "categoria": "categoria1",
-      "zona": "zona1"
+      "category": "category1",
+      "zone": "zone1"
     },
     {
       "id": 25,
-      "nombre": "nombre25",
-      "latitud": 41.63,
+      "name": "name25",
+      "latitude": 41.63,
       "longitude": 2.2180999999999997,
       "rating": 10,
-      "categoria": "categoria2",
-      "zona": "zona2"
+      "category": "category2",
+      "zone": "zone2"
     }
   ]
 }
