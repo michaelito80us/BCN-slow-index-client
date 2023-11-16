@@ -2,8 +2,8 @@ export default function ratingToColor(rating) {
   rating = Math.max(0, Math.min(10, rating));
 
   // Define the start (green) and end (red) colors
-  const endColor = { r: 87, g: 189, b: 54 };
-  const startColor = { r: 174, g: 0, b: 0 };
+  const startColor = { r: 87, g: 189, b: 54 };
+  const endColor = { r: 174, g: 0, b: 0 };
 
   // Calculate the interpolated color
   let r = Math.round(

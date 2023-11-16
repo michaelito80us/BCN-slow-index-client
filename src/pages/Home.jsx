@@ -29,13 +29,12 @@ const Home = () => {
           <p className="mb-3 text-lg">
             Our unique <strong>Slow Travel Index</strong> rates destinations in
             Barcelona on a scale from 0 to 10, measuring their compatibility
-            with the ethos of slow travel. A score of
-            <strong>{" 10"}</strong> represents the pinnacle of slow travel
-            experiences — places that encourage deep cultural engagement,
-            minimal environmental impact, and a pace that allows for genuine
-            connections and self-reflection. A score of <strong>0</strong>, on
-            the other hand, indicates destinations more aligned with fast-paced,
-            conventional tourism.
+            with the ethos of slow travel. A score of <strong>0</strong>{" "}
+            represents the pinnacle of slow travel experiences — places that
+            encourage deep cultural engagement, minimal environmental impact,
+            and a pace that allows for genuine connections and self-reflection.
+            A score of <strong>10</strong>, on the other hand, indicates
+            destinations more aligned with fast-paced, conventional tourism.
           </p>
           <div className="my-10 flex justify-evenly gap-10">
             <Badge rating="2" />
@@ -53,7 +52,7 @@ const Home = () => {
         <Card
           category="Turismo"
           name="Sagrada Familia"
-          rating="0"
+          rating="10"
           address="C/ de Mallorca, 401"
         />
         <Link
