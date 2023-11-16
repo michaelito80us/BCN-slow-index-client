@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex flex-col  items-center justify-center p-8 text-center min-h-screen">
+    <div className="flex min-h-screen flex-col items-center justify-center p-8 text-center">
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img
@@ -23,7 +23,7 @@ function App() {
           />
         </a>
       </div>
-      <h1 className="text-5xl">Vite + React</h1>
+      <h1 className="bg-secondary text-5xl text-primary">Vite + React</h1>
       <div className="p-8">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
