@@ -49,11 +49,11 @@ const Main = () => {
     // const postData = async () => {
     //   try {
     //     const response = await axios.post(
-    //       "https://example.com/api/filter",
+    //       "http://localhost:8081/interestpoints/filters/",
     //       currentFilter,
     //     );
-    //     console.log("Response data: ", response.data.results);
-    //     setResponseData(response.data.results);
+    //     console.log("Response data: ", response.data);
+    //     setResponseData(response.data);
     //   } catch (error) {
     //     console.error("Error in Axios POST request: ", error);
     //     setError(error.message);
@@ -68,7 +68,7 @@ const Main = () => {
   }
 
   return (
-    <div className="mx-4 main-container">
+    <div className="mx-4 pb-10">
       <Filter
         zones={ZONES}
         categories={CATEGORIES}
@@ -84,6 +84,7 @@ const Main = () => {
               category={place.category}
               name={place.name}
               rating={place.rating}
+              address={place.address}
             />
           ))}
       </div>

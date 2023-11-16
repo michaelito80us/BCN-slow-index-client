@@ -3,9 +3,12 @@ import Map, {
   Marker,
   NavigationControl,
   FullscreenControl,
+  Popup,
+  GeolocateControl,
 } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import ratingToColor from "../utils/ratingColor";
+import { ClimbingBoxLoader } from "react-spinners";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -15,6 +18,9 @@ const MapPage = ({ locations }) => {
     longitude: 2.168,
     zoom: 12,
   });
+
+  const [showPopup, setShowPopup] = useState(true);
+  const [selectedLocation, setSelectedLocation] = useState(null);
 
   const navControlStyle = {
     right: 10,
@@ -41,11 +47,31 @@ const MapPage = ({ locations }) => {
             latitude={pin.latitude}
             longitude={pin.longitude}
             color={ratingToColor(pin.rating)}
+            onClick={() => setSelectedLocation(pin)}
           />
         ))}
 
         <NavigationControl style={navControlStyle} />
         <FullscreenControl style={fullscreenControlStyle} />
+
+        {selectedLocation && (
+          <Popup
+            longitude={selectedLocation.longitude}
+            latitude={selectedLocation.latitude}
+            anchor="bottom"
+            onClose={() => setSelectedLocation(null)}
+            className="z-50 h-10 w-10 bg-red-400"
+          >
+            {" "}
+            hello
+            {/* <div>
+              <h2>{selectedLocation.name}</h2>
+              <p>Rating: {selectedLocation.rating}</p>
+              <button onClick={() => setSelectedLocation(null)}>Close</button>
+            </div> */}
+          </Popup>
+        )}
+        <GeolocateControl />
       </Map>
     </div>
   );

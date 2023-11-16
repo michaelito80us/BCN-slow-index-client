@@ -1,6 +1,4 @@
 {
-  "zones": ["zone1", "zone2", "zone3", "zone4"],
-  "categorys": ["tienda", "atraccion"],
   "results": [
     {
       "id": 1,
@@ -9,7 +7,8 @@
       "longitude": 2.1700999999999997,
       "rating": 9,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address1"
     },
     {
       "id": 2,
@@ -18,7 +17,8 @@
       "longitude": 2.1721,
       "rating": 0,
       "category": "atraccion",
-      "zone": "zone3"
+      "zone": "zone3",
+      "address": "address2"
     },
     {
       "id": 3,
@@ -27,7 +27,8 @@
       "longitude": 2.1740999999999997,
       "rating": 1,
       "category": "tienda",
-      "zone": "zone4"
+      "zone": "zone4",
+      "address": "address3"
     },
     {
       "id": 4,
@@ -36,7 +37,8 @@
       "longitude": 2.1761,
       "rating": 6,
       "category": "atraccion",
-      "zone": "zone1"
+      "zone": "zone1",
+      "address": "address3"
     },
     {
       "id": 5,
@@ -45,7 +47,8 @@
       "longitude": 2.1780999999999997,
       "rating": 2,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address3"
     },
     {
       "id": 6,
@@ -54,7 +57,8 @@
       "longitude": 2.1801,
       "rating": 9,
       "category": "atraccion",
-      "zone": "zone3"
+      "zone": "zone3",
+      "address": "address3"
     },
     {
       "id": 7,
@@ -63,7 +67,8 @@
       "longitude": 2.1820999999999997,
       "rating": 8,
       "category": "tienda",
-      "zone": "zone4"
+      "zone": "zone4",
+      "address": "address3"
     },
     {
       "id": 8,
@@ -72,7 +77,8 @@
       "longitude": 2.1841,
       "rating": 7,
       "category": "atraccion",
-      "zone": "zone1"
+      "zone": "zone1",
+      "address": "address3"
     },
     {
       "id": 9,
@@ -81,7 +87,8 @@
       "longitude": 2.1860999999999997,
       "rating": 6,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address3"
     },
     {
       "id": 10,
@@ -90,7 +97,8 @@
       "longitude": 2.1881,
       "rating": 10,
       "category": "atraccion",
-      "zone": "zone3"
+      "zone": "zone3",
+      "address": "address3"
     },
     {
       "id": 11,
@@ -99,7 +107,8 @@
       "longitude": 2.1900999999999997,
       "rating": 9,
       "category": "tienda",
-      "zone": "zone4"
+      "zone": "zone4",
+      "address": "address3"
     },
     {
       "id": 12,
@@ -108,7 +117,8 @@
       "longitude": 2.1921,
       "rating": 8,
       "category": "atraccion",
-      "zone": "zone1"
+      "zone": "zone1",
+      "address": "address3"
     },
     {
       "id": 13,
@@ -117,7 +127,8 @@
       "longitude": 2.1940999999999997,
       "rating": 7,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address3"
     },
     {
       "id": 14,
@@ -126,7 +137,8 @@
       "longitude": 2.1961,
       "rating": 6,
       "category": "atraccion",
-      "zone": "zone3"
+      "zone": "zone3",
+      "address": "address3"
     },
     {
       "id": 15,
@@ -135,7 +147,8 @@
       "longitude": 2.1980999999999997,
       "rating": 10,
       "category": "tienda",
-      "zone": "zone4"
+      "zone": "zone4",
+      "address": "address3"
     },
     {
       "id": 16,
@@ -144,7 +157,8 @@
       "longitude": 2.2001,
       "rating": 9,
       "category": "atraccion",
-      "zone": "zone1"
+      "zone": "zone1",
+      "address": "address3"
     },
     {
       "id": 17,
@@ -153,7 +167,8 @@
       "longitude": 2.2020999999999997,
       "rating": 8,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address3"
     },
     {
       "id": 18,
@@ -162,7 +177,8 @@
       "longitude": 2.2041,
       "rating": 7,
       "category": "atraccion",
-      "zone": "zone3"
+      "zone": "zone3",
+      "address": "address3"
     },
     {
       "id": 19,
@@ -171,7 +187,8 @@
       "longitude": 2.2060999999999997,
       "rating": 6,
       "category": "tienda",
-      "zone": "zone4"
+      "zone": "zone4",
+      "address": "address3"
     },
     {
       "id": 20,
@@ -180,7 +197,8 @@
       "longitude": 2.2081,
       "rating": 10,
       "category": "atraccion",
-      "zone": "zone1"
+      "zone": "zone1",
+      "address": "address3"
     },
     {
       "id": 21,
@@ -189,7 +207,8 @@
       "longitude": 2.2100999999999997,
       "rating": 9,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address3"
     },
     {
       "id": 22,
@@ -198,7 +217,8 @@
       "longitude": 2.2121,
       "rating": 8,
       "category": "atraccion",
-      "zone": "zone3"
+      "zone": "zone3",
+      "address": "address3"
     },
     {
       "id": 23,
@@ -207,7 +227,8 @@
       "longitude": 2.2140999999999997,
       "rating": 7,
       "category": "tienda",
-      "zone": "zone4"
+      "zone": "zone4",
+      "address": "address3"
     },
     {
       "id": 24,
@@ -216,7 +237,8 @@
       "longitude": 2.2161,
       "rating": 6,
       "category": "atraccion",
-      "zone": "zone1"
+      "zone": "zone1",
+      "address": "address3"
     },
     {
       "id": 25,
@@ -225,7 +247,8 @@
       "longitude": 2.2180999999999997,
       "rating": 10,
       "category": "tienda",
-      "zone": "zone2"
+      "zone": "zone2",
+      "address": "address3"
     }
   ]
 }
