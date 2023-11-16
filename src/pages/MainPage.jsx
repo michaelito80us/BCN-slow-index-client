@@ -66,6 +66,7 @@ const Main = () => {
   const [isLoadingInitial, setIsLoadingInitial] = useState(true);
 
   useEffect(() => {
+    // comment this code to use the real API
     const getData = async () => {
       try {
         setIsLoadingInitial(true);
