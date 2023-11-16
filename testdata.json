@@ -1,0 +1,231 @@
+{
+  "zones": ["zone1", "zone2", "zone3", "zone4"],
+  "categorys": ["tienda", "atraccion"],
+  "results": [
+    {
+      "id": 1,
+      "name": "name1",
+      "latitude": 41.39,
+      "longitude": 2.1700999999999997,
+      "rating": 9,
+      "category": "tienda",
+      "zone": "zone2"
+    },
+    {
+      "id": 2,
+      "name": "name2",
+      "latitude": 41.400000000000006,
+      "longitude": 2.1721,
+      "rating": 0,
+      "category": "atraccion",
+      "zone": "zone3"
+    },
+    {
+      "id": 3,
+      "name": "name3",
+      "latitude": 41.410000000000004,
+      "longitude": 2.1740999999999997,
+      "rating": 1,
+      "category": "tienda",
+      "zone": "zone4"
+    },
+    {
+      "id": 4,
+      "name": "name4",
+      "latitude": 41.42,
+      "longitude": 2.1761,
+      "rating": 6,
+      "category": "atraccion",
+      "zone": "zone1"
+    },
+    {
+      "id": 5,
+      "name": "name5",
+      "latitude": 41.43,
+      "longitude": 2.1780999999999997,
+      "rating": 2,
+      "category": "tienda",
+      "zone": "zone2"
+    },
+    {
+      "id": 6,
+      "name": "name6",
+      "latitude": 41.440000000000005,
+      "longitude": 2.1801,
+      "rating": 9,
+      "category": "atraccion",
+      "zone": "zone3"
+    },
+    {
+      "id": 7,
+      "name": "name7",
+      "latitude": 41.45,
+      "longitude": 2.1820999999999997,
+      "rating": 8,
+      "category": "tienda",
+      "zone": "zone4"
+    },
+    {
+      "id": 8,
+      "name": "name8",
+      "latitude": 41.46,
+      "longitude": 2.1841,
+      "rating": 7,
+      "category": "atraccion",
+      "zone": "zone1"
+    },
+    {
+      "id": 9,
+      "name": "name9",
+      "latitude": 41.470000000000006,
+      "longitude": 2.1860999999999997,
+      "rating": 6,
+      "category": "tienda",
+      "zone": "zone2"
+    },
+    {
+      "id": 10,
+      "name": "name10",
+      "latitude": 41.480000000000004,
+      "longitude": 2.1881,
+      "rating": 10,
+      "category": "atraccion",
+      "zone": "zone3"
+    },
+    {
+      "id": 11,
+      "name": "name11",
+      "latitude": 41.49,
+      "longitude": 2.1900999999999997,
+      "rating": 9,
+      "category": "tienda",
+      "zone": "zone4"
+    },
+    {
+      "id": 12,
+      "name": "name12",
+      "latitude": 41.5,
+      "longitude": 2.1921,
+      "rating": 8,
+      "category": "atraccion",
+      "zone": "zone1"
+    },
+    {
+      "id": 13,
+      "name": "name13",
+      "latitude": 41.510000000000005,
+      "longitude": 2.1940999999999997,
+      "rating": 7,
+      "category": "tienda",
+      "zone": "zone2"
+    },
+    {
+      "id": 14,
+      "name": "name14",
+      "latitude": 41.52,
+      "longitude": 2.1961,
+      "rating": 6,
+      "category": "atraccion",
+      "zone": "zone3"
+    },
+    {
+      "id": 15,
+      "name": "name15",
+      "latitude": 41.53,
+      "longitude": 2.1980999999999997,
+      "rating": 10,
+      "category": "tienda",
+      "zone": "zone4"
+    },
+    {
+      "id": 16,
+      "name": "name16",
+      "latitude": 41.54,
+      "longitude": 2.2001,
+      "rating": 9,
+      "category": "atraccion",
+      "zone": "zone1"
+    },
+    {
+      "id": 17,
+      "name": "name17",
+      "latitude": 41.550000000000004,
+      "longitude": 2.2020999999999997,
+      "rating": 8,
+      "category": "tienda",
+      "zone": "zone2"
+    },
+    {
+      "id": 18,
+      "name": "name18",
+      "latitude": 41.56,
+      "longitude": 2.2041,
+      "rating": 7,
+      "category": "atraccion",
+      "zone": "zone3"
+    },
+    {
+      "id": 19,
+      "name": "name19",
+      "latitude": 41.57,
+      "longitude": 2.2060999999999997,
+      "rating": 6,
+      "category": "tienda",
+      "zone": "zone4"
+    },
+    {
+      "id": 20,
+      "name": "name20",
+      "latitude": 41.580000000000005,
+      "longitude": 2.2081,
+      "rating": 10,
+      "category": "atraccion",
+      "zone": "zone1"
+    },
+    {
+      "id": 21,
+      "name": "name21",
+      "latitude": 41.59,
+      "longitude": 2.2100999999999997,
+      "rating": 9,
+      "category": "tienda",
+      "zone": "zone2"
+    },
+    {
+      "id": 22,
+      "name": "name22",
+      "latitude": 41.6,
+      "longitude": 2.2121,
+      "rating": 8,
+      "category": "atraccion",
+      "zone": "zone3"
+    },
+    {
+      "id": 23,
+      "name": "name23",
+      "latitude": 41.61,
+      "longitude": 2.2140999999999997,
+      "rating": 7,
+      "category": "tienda",
+      "zone": "zone4"
+    },
+    {
+      "id": 24,
+      "name": "name24",
+      "latitude": 41.620000000000005,
+      "longitude": 2.2161,
+      "rating": 6,
+      "category": "atraccion",
+      "zone": "zone1"
+    },
+    {
+      "id": 25,
+      "name": "name25",
+      "latitude": 41.63,
+      "longitude": 2.2180999999999997,
+      "rating": 10,
+      "category": "tienda",
+      "zone": "zone2"
+    }
+  ]
+}
