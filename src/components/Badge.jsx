@@ -1,12 +1,12 @@
+import ratingToColor from "../utils/ratingColor";
 
-
-const Badge = () => {
+const Badge = ({ rating }) => {
+  const color = ratingToColor(Number(rating));
   return (
-    <div>
-      <h1>Badge</h1>
+    <div style={{ backgroundColor: color }} className="w-6 h-8">
+      {rating}
     </div>
-  )
-}
+  );
+};
 
-export default Badge
-
+export default Badge;
