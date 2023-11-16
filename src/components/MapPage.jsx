@@ -21,7 +21,6 @@ const MapPage = ({ locations }) => {
         mapStyle="mapbox://styles/mapbox/streets-v9"
         mapboxAccessToken={MAPBOX_TOKEN}
       >
-        <Marker longitude={-122.41} latitude={37.78} color="red" />
         {locations.map((pin, index) => (
           <Marker
             key={index}
