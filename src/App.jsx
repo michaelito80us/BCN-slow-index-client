@@ -7,13 +7,15 @@ import PlaceDetails from "./pages/PlaceDetails";
 
 const App = () => {
   return (
-    <div className="flex h-screen flex-col justify-between">
+    <div className="flex min-h-screen flex-col">
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/main" element={<MainPage />} />
-        <Route path="/details/:placeId" element={<PlaceDetails />} />
-      </Routes>
+      <div className="grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/main" element={<MainPage />} />
+          <Route path="/details/:placeId" element={<PlaceDetails />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );

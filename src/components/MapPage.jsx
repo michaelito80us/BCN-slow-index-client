@@ -13,23 +13,25 @@ const MapPage = ({ locations }) => {
   });
 
   return (
-    <Map
-      {...viewport}
-      onMove={(evt) => setViewport(evt.viewport)}
-      style={{ width: 800, height: 600 }}
-      mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken={MAPBOX_TOKEN}
-    >
-      <Marker longitude={-122.41} latitude={37.78} color="red" />
-      {locations.map((pin, index) => (
-        <Marker
-          key={index}
-          latitude={pin.latitude}
-          longitude={pin.longitude}
-          color={ratingToColor(pin.rating)}
-        />
-      ))}
-    </Map>
+    <div className="map-container">
+      <Map
+        {...viewport}
+        onMove={(evt) => setViewport(evt.viewport)}
+        style={{ width: "100%", height: "100%" }}
+        mapStyle="mapbox://styles/mapbox/streets-v9"
+        mapboxAccessToken={MAPBOX_TOKEN}
+      >
+        <Marker longitude={-122.41} latitude={37.78} color="red" />
+        {locations.map((pin, index) => (
+          <Marker
+            key={index}
+            latitude={pin.latitude}
+            longitude={pin.longitude}
+            color={ratingToColor(pin.rating)}
+          />
+        ))}
+      </Map>
+    </div>
   );
 };
 

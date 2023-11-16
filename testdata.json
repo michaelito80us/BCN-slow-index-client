@@ -1,6 +1,4 @@
 {
-  "zones": ["zone1", "zone2", "zone3", "zone4"],
-  "categorys": ["tienda", "atraccion"],
   "results": [
     {
       "id": 1,

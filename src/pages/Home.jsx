@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <div className="items-center w-100">
+      <div className="flex flex-col items-center max-w-5xl mx-auto">
         <h1 className="">Barcelona Slow Index</h1>
         <h2 className="m-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sint
