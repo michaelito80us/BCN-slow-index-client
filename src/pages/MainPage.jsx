@@ -49,7 +49,7 @@ const ZONES = [
 
 const CATEGORIES = [
   { value: "TIENDAS", label: "Tienda" },
-  { value: "ATTRACCIONES", label: "Atraccion" },
+  { value: "ATRACCIONES", label: "Atraccion" },
 ];
 
 const Main = () => {
@@ -59,7 +59,7 @@ const Main = () => {
   const [currentFilter, setCurrentFilter] = useState({
     category: "",
     zone: "",
-    index: "",
+    rating: "",
   });
   const [error, setError] = useState(null);
   const [isLoadingInitial, setIsLoadingInitial] = useState(true);
@@ -72,6 +72,7 @@ const Main = () => {
           "http://localhost:8081/interestpoints/filters/",
           currentFilter
         );
+        console.log(response.data)
         setResponseData(response.data);
         setIsLoadingInitial(false);
       } catch (error) {
@@ -81,7 +82,7 @@ const Main = () => {
     };
 
     postData();
-  }, [setCurrentFilter]);
+  }, [currentFilter]);
 
   if (isLoadingInitial) {
     return <DotLoader color="#36d7b7" size={60} />;
