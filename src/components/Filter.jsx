@@ -3,8 +3,8 @@ import Select from "react-select";
 
 const Filter = ({ zones, categories, setCurrentFilter }) => {
   const [filter, setFilter] = useState({
-    zona: "",
-    categoria: "",
+    zone: "",
+    category: "",
     rating: "",
   });
 
@@ -41,7 +41,7 @@ const Filter = ({ zones, categories, setCurrentFilter }) => {
             { value: "", label: "" },
             ...Array.from({ length: 10 }, (_, i) => ({
               value: i + 1,
-              label: `${i + 1}+`,
+              label: `${i + 1}-`,
             })),
           ]}
         />
